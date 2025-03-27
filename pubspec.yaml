@@ -1,6 +1,6 @@
 name: flutter_mcp_common
 description: Common utilities and platform integrations for Model Context Protocol (MCP) in Flutter applications
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/app-appplayer/flutter_mcp_common
 
 environment:
@@ -30,7 +30,7 @@ flutter:
   plugin:
     platforms:
       android:
-        package: com.appplayer.flutter_mcp_common
+        package: app.appplayer.flutter_mcp_common
         pluginClass: FlutterMcpCommonPlugin
       ios:
         pluginClass: FlutterMcpCommonPlugin
